@@ -1,0 +1,34 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: xleapp GUI",
+            "type": "python",
+            "request": "launch",
+            "console": "integratedTerminal",
+            "module": "xleapp",
+            "args": [
+                "--gui"
+            ]
+        },
+        {
+            "name": "Python: xleapp CLI",
+            "type": "python",
+            "request": "launch",
+            "console": "integratedTerminal",
+            "module": "xleapp",
+            "args": [
+                "-I",
+                "-i",
+                "C:\\Users\\jesse\\Downloads\\iOS 13.4.1 Extraction\\Extraction\\13-4-1.tar",
+                "-o",
+                "C:\\Users\\jesse\\Downloads\\iOS 13.4.1 Extraction\\Extraction",
+                "--artifact",
+                "geodpdplacecache"
+            ]
+        }
+    ]
+}
